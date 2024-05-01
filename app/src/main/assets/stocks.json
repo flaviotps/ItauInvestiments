@@ -1,0 +1,290 @@
+[
+  {
+    "name": "Vale SA",
+    "code": "VALE3",
+    "dailyVariation": 1.25,
+    "price": 95.4
+  },
+  {
+    "name": "Petrobras SA",
+    "code": "PETR4",
+    "dailyVariation": 0.78,
+    "price": 22
+  },
+  {
+    "name": "Itaú Unibanco Holding SA",
+    "code": "ITUB4",
+    "dailyVariation": 1.67,
+    "price": 27.9
+  },
+  {
+    "name": "Bradesco SA",
+    "code": "BBDC4",
+    "dailyVariation": 1.67,
+    "price": 31.5
+  },
+  {
+    "name": "Banco do Brasil SA",
+    "code": "BBAS3",
+    "dailyVariation": 1.15,
+    "price": 35.8
+  },
+  {
+    "name": "Magazine Luiza SA",
+    "code": "MGLU3",
+    "dailyVariation": 2.88,
+    "price": 28.7
+  },
+  {
+    "name": "Cia Siderúrgica Nacional",
+    "code": "CSNA3",
+    "dailyVariation": 3.45,
+    "price": 39.2
+  },
+  {
+    "name": "Gerdau SA",
+    "code": "GGBR4",
+    "dailyVariation": 2.05,
+    "price": 27.6
+  },
+  {
+    "name": "Klabin SA",
+    "code": "KLBN11",
+    "dailyVariation": -0.69,
+    "price": 24.3
+  },
+  {
+    "name": "Hypera Pharma SA",
+    "code": "HYPE3",
+    "dailyVariation": 0.93,
+    "price": 37.9
+  },
+  {
+    "name": "Lojas Renner SA",
+    "code": "LREN3",
+    "dailyVariation": 1.69,
+    "price": 14.2
+  },
+  {
+    "name": "Suzano SA",
+    "code": "SUZB3",
+    "dailyVariation": -0.53,
+    "price": 38.5
+  },
+  {
+    "name": "MRV Engenharia e Participações SA",
+    "code": "MRVE3",
+    "dailyVariation": 2.36,
+    "price": 21.8
+  },
+  {
+    "name": "Localiza Rent a Car SA",
+    "code": "RENT3",
+    "dailyVariation": 0.27,
+    "price": 64.7
+  },
+  {
+    "name": "Braskem SA",
+    "code": "BRKM5",
+    "dailyVariation": 1.98,
+    "price": 33.6
+  },
+  {
+    "name": "Via Varejo SA",
+    "code": "VVAR3",
+    "dailyVariation": 3.22,
+    "price": 15.1
+  },
+  {
+    "name": "Raia Drogasil SA",
+    "code": "RADL3",
+    "dailyVariation": 1.87,
+    "price": 28.9
+  },
+  {
+    "name": "Usiminas SA",
+    "code": "USIM5",
+    "dailyVariation": 3.91,
+    "price": 22.4
+  },
+  {
+    "name": "Cogna Educação SA",
+    "code": "COGN3",
+    "dailyVariation": 0.75,
+    "price": 5.3
+  },
+  {
+    "name": "CVC Brasil Operadora e Agência de Viagens SA",
+    "code": "CVCB3",
+    "dailyVariation": 1.28,
+    "price": 16.9
+  },
+  {
+    "name": "Cielo SA",
+    "code": "CIEL3",
+    "dailyVariation": 0.93,
+    "price": 2.8
+  },
+  {
+    "name": "Gol Linhas Aéreas Inteligentes SA",
+    "code": "GOLL4",
+    "dailyVariation": 2.17,
+    "price": 25.6
+  },
+  {
+    "name": "Eletrobras SA",
+    "code": "ELET6",
+    "dailyVariation": 0.42,
+    "price": 42.1
+  },
+  {
+    "name": "Cyrela Brazil Realty SA Empreendimentos e Participações",
+    "code": "CYRE3",
+    "dailyVariation": 2.78,
+    "price": 27.3
+  },
+  {
+    "name": "Pão de Açúcar Companhia Brasileira de Distribuição",
+    "code": "PCAR3",
+    "dailyVariation": 1.15,
+    "price": 30.5
+  },
+  {
+    "name": "Bradespar SA",
+    "code": "BRAP4",
+    "dailyVariation": 3.37,
+    "price": 59.8
+  },
+  {
+    "name": "Telefônica Brasil SA",
+    "code": "VIVT4",
+    "dailyVariation": 1.85,
+    "price": 42.7
+  },
+  {
+    "name": "Marfrig Global Foods SA",
+    "code": "MRFG3",
+    "dailyVariation": 3.29,
+    "price": 19.7
+  },
+  {
+    "name": "Banco Santander (Brasil) SA",
+    "code": "SANB11",
+    "dailyVariation": 2.02,
+    "price": 42.8
+  },
+  {
+    "name": "Ultrapar Participações SA",
+    "code": "UGPA3",
+    "dailyVariation": 0.58,
+    "price": 19.2
+  },
+  {
+    "name": "B2W Companhia Digital",
+    "code": "BTOW3",
+    "dailyVariation": 3.76,
+    "price": 84.6
+  },
+  {
+    "name": "Petroleo Brasileiro SA Petrobras",
+    "code": "PETR3",
+    "dailyVariation": 1.52,
+    "price": 32.4
+  },
+  {
+    "name": "Carrefour Brasil Comércio e Indústria SA",
+    "code": "CRFB3",
+    "dailyVariation": 1.95,
+    "price": 22.9
+  },
+  {
+    "name": "Hypermarcas SA",
+    "code": "HYPE3",
+    "dailyVariation": 2.44,
+    "price": 23.5
+  },
+  {
+    "name": "BR Malls Participações SA",
+    "code": "BRML3",
+    "dailyVariation": 2.72,
+    "price": 11.8
+  },
+  {
+    "name": "Energias do Brasil SA",
+    "code": "ENBR3",
+    "dailyVariation": 1.98,
+    "price": 18.3
+  },
+  {
+    "name": "Cosan SA Indústria e Comércio",
+    "code": "CSAN3",
+    "dailyVariation": 0.93,
+    "price": 37.8
+  },
+  {
+    "name": "Azul SA",
+    "code": "AZUL4",
+    "dailyVariation": 2.75,
+    "price": 45.9
+  },
+  {
+    "name": "BR Properties SA",
+    "code": "BRPR3",
+    "dailyVariation": 2.33,
+    "price": 10.6
+  },
+  {
+    "name": "Equatorial Energia SA",
+    "code": "EQTL3",
+    "dailyVariation": 1.29,
+    "price": 21.5
+  },
+  {
+    "name": "PetroRio SA",
+    "code": "PRIO3",
+    "dailyVariation": 1.78,
+    "price": 38.7
+  },
+  {
+    "name": "Taesa - Transmissora Aliança de Energia Elétrica SA",
+    "code": "TAEE11",
+    "dailyVariation": 0.85,
+    "price": 29.2
+  },
+  {
+    "name": "Azul SA",
+    "code": "AZUL4",
+    "dailyVariation": 2.75,
+    "price": 45.9
+  },
+  {
+    "name": "Banco Inter SA",
+    "code": "BIDI4",
+    "dailyVariation": 4.63,
+    "price": 36.2
+  },
+  {
+    "name": "Yduqs Participações SA",
+    "code": "YDUQ3",
+    "dailyVariation": 1.52,
+    "price": 28.1
+  },
+  {
+    "name": "Unidas SA",
+    "code": "LCAM3",
+    "dailyVariation": 0.46,
+    "price": 22.8
+  },
+  {
+    "name": "Enauta Participações SA",
+    "code": "ENAT3",
+    "dailyVariation": 0.86,
+    "price": 21.2
+  },
+  {
+    "name": "BTG Pactual Participations Ltd",
+    "code": "BPAC11",
+    "dailyVariation": 1.68,
+    "price": 122.4
+  }
+]

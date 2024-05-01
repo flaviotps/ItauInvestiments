@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "600488315639",
+    "project_id": "flavio-desafio-2023",
+    "storage_bucket": "flavio-desafio-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600488315639:android:15e11a492ee27aa0a921f2",
+        "android_client_info": {
+          "package_name": "br.com.itau.app.investiments"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJICm-TMbEV8gqc8oE7G2pxCZ6TOyNucQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

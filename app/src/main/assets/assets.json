@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Petrobras SA",
+    "code": "PETR4",
+    "quantity": 154,
+    "unit_price": 14.52,
+    "type": "Ação"
+  },
+  {
+    "name": "Tesouro Direto NTNB-B",
+    "code": "Tesouro_1",
+    "quantity": 50,
+    "unit_price": 11.16,
+    "type": "Tesouro"
+  },
+  {
+    "name": "Bitcoin",
+    "code": "BTC",
+    "quantity": 0.002,
+    "unit_price": 325.606,
+    "type": "Cripto"
+  },
+  {
+    "name": "Itaú Personnalité FI Multimercado",
+    "code": "Fundos de Investimento_1",
+    "quantity": 64,
+    "unit_price": 15.12,
+    "type": "Fundos de Investimento"
+  },
+  {
+    "name": "Banco do Brasil SA",
+    "code": "BBAS3",
+    "quantity": 20,
+    "unit_price": 30.0,
+    "type": "Ação"
+  },
+  {
+    "name": "Tesouro Direto Prefixado",
+    "code": "Tesouro_2",
+    "quantity": 30,
+    "unit_price": 10.0,
+    "type": "Tesouro"
+  },
+  {
+    "name": "Ethereum",
+    "code": "ETH",
+    "quantity": 0.01,
+    "unit_price": 20300,
+    "type": "Cripto"
+  },
+  {
+    "name": "Bradesco FI Renda Fixa",
+    "code": "Fundos de Investimento_2",
+    "quantity": 30,
+    "unit_price": 12.0,
+    "type": "Fundos de Investimento"
+  },
+  {
+    "name": "Vale SA",
+    "code": "VALE3",
+    "quantity": 15,
+    "unit_price": 20.0,
+    "type": "Ação"
+  },
+  {
+    "name": "Tesouro Direto IPCA+",
+    "code": "Tesouro_3",
+    "quantity": 12,
+    "unit_price": 15.0,
+    "type": "Tesouro"
+  },
+  {
+    "name": "Ripple",
+    "code": "XRP",
+    "quantity": 10,
+    "unit_price": 10,
+    "type": "Cripto"
+  },
+  {
+    "name": "Santander FI Cambial",
+    "code": "Fundos de Investimento_3",
+    "quantity": 5,
+    "unit_price": 11.0,
+    "type": "Fundos de Investimento"
+  }
+]
