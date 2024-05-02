@@ -67,7 +67,7 @@ git clone https://github.com/flaviotps/ItauInvestiments.git
 
 Você também pode gerar o APK (debug) com os seguintes passos:
  
- 1. Executar diretamente pela IDE or a task `./gradlew assemble` no terminal da IDE
+ 1. Executar diretamente pela IDE ou a task `./gradlew assemble` no terminal da IDE
  
  2. APK será gerado e estará localizado no diretório `app/build/outputs/apk/`
 
