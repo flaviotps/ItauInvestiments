@@ -21,8 +21,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "ItauInvestiments"
 include(":app")
-include(":home")
-include(":ui-components")
-include(":stocks")
-include(":network")
-include(":analytics")
+include(":itau-investment-home")
+include(":itau-investment-ui-components")
+include(":itau-investment-stocks")
+include(":itau-investment-network")
+include(":itau-investment-analytics")
