@@ -22,14 +22,13 @@ Repositórios Relacionados
 O projeto consiste em um aplicativo Android modular com os seguintes módulos: `app`, `home`, `stock`, `network`, `ui-components` e `analytics`. Cada módulo desempenha um papel específico na aplicação, facilitando a manutenção e a escalabilidade do código. Além disso, foram aplicados princípios como `SOLID` e `DRY` para promover uma arquitetura limpa e modular.
 
 <div style="display:flex;">
-    <img src="screenshots/HOME_1.png" alt="Imagens do Aplicativo" style="width:300px; margin-right:10px;">
-    <img src="screenshots/HOME_2.png" alt="Imagens do Aplicativo" style="width:300px;">
-    <img src="screenshots/HOME_3.png" alt="Imagens do Aplicativo" style="width:300px;">
-    <img src="screenshots/HOME_4.png" alt="Imagens do Aplicativo" style="width:300px;">
-    <img src="screenshots/STOCK_1.png" alt="Imagens do Aplicativo" style="width:300px;">
-    <img src="screenshots/STOCK_2.png" alt="Imagens do Aplicativo" style="width:300px;">
-    <img src="screenshots/STOCK_3.png" alt="Imagens do Aplicativo" style="width:300px;">
-
+    <img src="https://github.com/flaviotps/ItauInvestiments/blob/master/screenshots/HOME_1.png" alt="Imagens do Aplicativo" style="width:300px; margin-right:10px;">
+    <img src="https://github.com/flaviotps/ItauInvestiments/blob/master/screenshots/HOME_2.png" alt="Imagens do Aplicativo" style="width:300px;">
+    <img src="https://github.com/flaviotps/ItauInvestiments/blob/master/screenshots/HOME_3.png" alt="Imagens do Aplicativo" style="width:300px;">
+    <img src="https://github.com/flaviotps/ItauInvestiments/blob/master/screenshots/HOME_4.png" alt="Imagens do Aplicativo" style="width:300px;">
+    <img src="https://github.com/flaviotps/ItauInvestiments/blob/master/screenshots/STOCK_1.png" alt="Imagens do Aplicativo" style="width:300px;">
+    <img src="https://github.com/flaviotps/ItauInvestiments/blob/master/screenshots/STOCK_2.png" alt="Imagens do Aplicativo" style="width:300px;">
+    <img src="https://github.com/flaviotps/ItauInvestiments/blob/master/screenshots/STOCK_3.png" alt="Imagens do Aplicativo" style="width:300px;">
 </div>
 
 ## Rodar o Projeto
@@ -144,11 +143,10 @@ Em um projeto Android multimodular, ter um repositório Git por módulo oferece 
  - Gerenciamento de Dependências
 
 
-<img src="screenshots/GIT_MULTI_REPO.png" alt="Imagens do Aplicativo" style="width:100%; margin-right:10px;">
-  <img src="screenshots/MULTI_PUSH.png" alt="Imagens do Aplicativo" style="width:100%; margin-right:10px;">
+<img src="https://github.com/flaviotps/ItauInvestiments/blob/master/screenshots/GIT_MULTI_REPO.png" alt="Imagens do Aplicativo" style="width:100%; margin-right:10px;">
+  <img src="https://github.com/flaviotps/ItauInvestiments/blob/master/screenshots/MULTI_PUSH.png" alt="Imagens do Aplicativo" style="width:100%; margin-right:10px;">
 <div style="display:flex;">
-<img src="screenshots/MULTI_PUSH.png" alt="Imagens do Aplicativo" style="width:50%; margin-right:10px;">
-<img src="screenshots/MULTI_BRANCH.png" alt="Imagens do Aplicativo" style="width:50%; margin-right:10px;">
+<img src="https://github.com/flaviotps/ItauInvestiments/blob/master/screenshots/MULTI_BRANCH.png" alt="Imagens do Aplicativo" style="width:50%; margin-right:10px;">
  </div>
 
 ## Módulo Home
@@ -262,12 +260,13 @@ fun ExpandableCard(
 }
 ```
 ### Outros componentes
-- [card](/ui-components/src/main/java/br/com/itau/app/ui_components/card)
-- [carousel](/ui-components/src/main/java/br/com/itau/app/ui_components/carousel)
-- [commonns](/ui-components/src/main/java/br/com/itau/app/ui_components/commons)
-- [graph](/ui-components/src/main/java/br/com/itau/app/ui_components/graph)
-- [text](/ui-components/src/main/java/br/com/itau/app/ui_components/text)
-- [theme](/ui-components/src/main/java/br/com/itau/app/ui_components/theme)
+- [card](https://github.com/flaviotps/itau-investment-ui-components/tree/master/src/main/java/br/com/itau/app/ui_components/card)
+- [carousel](https://github.com/flaviotps/itau-investment-ui-components/tree/master/src/main/java/br/com/itau/app/ui_components/carousel)
+- [commonns](https://github.com/flaviotps/itau-investment-ui-components/tree/master/src/main/java/br/com/itau/app/ui_components/commons)
+- [graph](https://github.com/flaviotps/itau-investment-ui-components/tree/master/src/main/java/br/com/itau/app/ui_components/graph)
+- [text](https://github.com/flaviotps/itau-investment-ui-components/tree/master/src/main/java/br/com/itau/app/ui_components/text)
+- [theme](https://github.com/flaviotps/itau-investment-ui-components/tree/master/src/main/java/br/com/itau/app/ui_components/theme)
+
 
 ## Módulo Analytics
 
@@ -290,9 +289,9 @@ ItauAnalytics.logEvent(ItauAnalytics.SCREEN_NAME, SCREEN_HOME_TAB)
 ### Painel do Google Analytics
 No painel do Google Analytics, as informações enviadas, juntamente com um conjunto de dados importantes, são apresentadas de maneira organizada e acessível. Aqui, você pode explorar uma ampla gama de métricas e insights, permitindo uma compreensão mais profunda do desempenho e do comportamento do seu público-alvo.
 
-<img src="screenshots/PAINEL_ANALYTICS.png" alt="Imagens do Aplicativo" width="100%">
+ <img src="https://github.com/flaviotps/ItauInvestiments/blob/master/screenshots/PAINEL_ANALYTICS.png" alt="Imagens do Aplicativo" width="100%">
 
-<img src="screenshots/PAINEL_ANALYTICS_STOCK.png" alt="Imagens do Aplicativo" width="100%">
+<img src="https://github.com/flaviotps/ItauInvestiments/blob/master/screenshots/PAINEL_ANALYTICS_STOCK.png" alt="Imagens do Aplicativo" width="100%">
 
 ## Testes
 
