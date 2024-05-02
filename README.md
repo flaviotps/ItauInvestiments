@@ -10,6 +10,12 @@
 
 
 
+Repositórios Relacionados
+- https://github.com/flaviotps/itau-investment-analytics
+- https://github.com/flaviotps/itau-investment-home
+- https://github.com/flaviotps/itau-investment-stocks
+- https://github.com/flaviotps/itau-investment-ui-components
+- https://github.com/flaviotps/itau-investment-network
 
 ## Descrição
 
