@@ -70,7 +70,9 @@ git clone https://github.com/flaviotps/ItauInvestiments.git
 
 4. Abra o projeto no Android Studio (Artic Fox - 2022.1 ou superior).
 
-5. Execute o projeto `run`.
+5. Execute o projeto com `./gradlew sync` e aguarde.
+   
+6. Após o termino, execute o `run` do projeto.
 
 Você também pode gerar o APK (debug) com os seguintes passos:
  
