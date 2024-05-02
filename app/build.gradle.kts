@@ -52,10 +52,10 @@ android {
 
 dependencies {
 
-    implementation(project(":ui-components"))
-    implementation(project(":home"))
-    implementation(project(":stocks"))
-    implementation(project(":network"))
+    implementation(project(":itau-investment-ui-components"))
+    implementation(project(":itau-investment-home"))
+    implementation(project(":itau-investment-stocks"))
+    implementation(project(":itau-investment-network"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

@@ -288,7 +288,7 @@ No painel do Google Analytics, as informações enviadas, juntamente com um conj
 
 <img src="screenshots/PAINEL_ANALYTICS_STOCK.png" alt="Imagens do Aplicativo" width="100%">
 
-## Testes e Princípios de Design
+## Testes
 
 Testes automatizados garantem a qualidade do código, detectam bugs rapidamente, facilitam a refatoração e servem como documentação viva do comportamento do sistema, aumentando a confiança no software.
 
