@@ -1,4 +1,15 @@
-# Desafio Innvestimenntos
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
+
+
+![](https://img.shields.io/badge/Compose-8A2BE2)
+![](https://img.shields.io/badge/minSdk-25-4433E2)
+![](https://img.shields.io/badge/compileSdk-34-4433E2)
+![](https://img.shields.io/badge/gradle-8.4-FFFB8C)
+
+
+
 
 ## Descrição
 
@@ -12,17 +23,55 @@ O projeto consiste em um aplicativo Android modular com os seguintes módulos: `
     <img src="screenshots/STOCK_1.png" alt="Imagens do Aplicativo" style="width:300px;">
     <img src="screenshots/STOCK_2.png" alt="Imagens do Aplicativo" style="width:300px;">
     <img src="screenshots/STOCK_3.png" alt="Imagens do Aplicativo" style="width:300px;">
+
 </div>
 
 ## Rodar o Projeto
 
-A seguir estão os passos para rodar o projeto:
+Esse projeto utiliza `multi-git`, por isso é necessário executar o clone dos repositorios abaixo.
 
-1.Clone o repositório do projeto:
+1.Clone o repositório do projeto principal:
 
 ```bash
 git clone https://github.com/flaviotps/ItauInvestiments.git
 ```
+
+2. Navegue até o diretório `ItauInvestiments`, use o comando `cd ItauInvestiments` no terminal.
+
+3. Clone os repositórios abaixo:
+
+- itau-investment-ui-components
+    ```bash
+    git clone https://github.com/flaviotps/itau-investment-ui-components.git
+    ```
+- itau-investment-analytics
+     ```bash
+    git clone https://github.com/flaviotps/itau-investment-analytics.git
+    ```
+- itau-investment-network
+     ```bash
+    git clone https://github.com/flaviotps/itau-investment-network.git
+    ```
+- itau-investment-stocks
+     ```bash
+    git clone https://github.com/flaviotps/itau-investment-stocks.git
+    ```
+- itau-investment-home
+     ```bash
+    git clone https://github.com/flaviotps/itau-investment-home.git
+    ```
+
+4. Abra o projeto no Android Studio (Artic Fox - 2022.1 ou superior).
+
+5. Execute o projeto `run`.
+
+Você também pode gerar o APK (debug) com os seguintes passos:
+ 
+ 1. Executar diretamente pela IDE or a task `./gradlew assemble` no terminal da IDE
+ 
+ 2. APK será gerado e estará localizado no diretório `app/build/outputs/apk/`
+
+ 3. Envie o APK para o seu aparelho ou arraste para o emulador.
 
 
 ## Estratégia de Implementação Modular
@@ -50,9 +99,10 @@ Com a modularidade, o aplicativo está preparado para escalar de forma mais efic
 Em resumo, a estratégia de implementação modular proporciona uma base sólida para o desenvolvimento de aplicativos robustos, flexíveis e fáceis de manter. Ao adotar essa abordagem, as equipes de desenvolvimento podem criar sistemas mais resilientes e adaptáveis, preparados para enfrentar os desafios do ambiente digital em constante evolução.
 
 
-## Estratégia de Implementação Arquitetural (MVVM + CLEAN)
+## Estratégia de Implementação Arquitetural (MVVM)
 
-O MVVM é um padrão de arquitetura que separa claramente as responsabilidades das diferentes partes de uma aplicação:
+Ao adotar a arquitetura MVVM no desenvolvimento Android, os benefícios incluem uma clara separação de responsabilidades entre Model, View e ViewModel.
+Isso facilita a manutenção do código, permite reutilização de componentes e simplifica testes unitários. Além disso, o ViewModel sobrevive a recriações de Activities, garantindo a persistência de dados e evitando problemas de estado da UI.
 
 `Model`: Representa os dados e a lógica de negócios.
 
@@ -78,14 +128,31 @@ Essa camada é responsavel por fazer as configurações necessarias de um `Servi
 
 O módulo `app` contém apenas classes de navegação e a classe MainActivity.
 
+## Estratégia de Versionamento
+Em um projeto Android multimodular, ter um repositório Git por módulo oferece uma série de benefícios significativos. Aqui estão algumas razões importantes:
+
+- Isolamento de Alterações
+  
+- Controle de Acesso e Permissões
+  
+ - Gerenciamento de Dependências
+
+
+<img src="screenshots/GIT_MULTI_REPO.png" alt="Imagens do Aplicativo" style="width:100%; margin-right:10px;">
+  <img src="screenshots/MULTI_PUSH.png" alt="Imagens do Aplicativo" style="width:100%; margin-right:10px;">
+<div style="display:flex;">
+<img src="screenshots/MULTI_PUSH.png" alt="Imagens do Aplicativo" style="width:50%; margin-right:10px;">
+<img src="screenshots/MULTI_BRANCH.png" alt="Imagens do Aplicativo" style="width:50%; margin-right:10px;">
+ </div>
+
 ## Módulo Home
 
-O módulo "Home" se baseia nos módulos "network", "analytics" e "ui-components" para criar telas específicas desta funcionalidade.
+O módulo "Home" se baseia nos módulos `network`, `analytics` e `ui-components` para criar telas específicas desta funcionalidade.
 Todas as regras de negócio e funcionalidades exclusivas do módulo estão concentradas aqui.
 
 ## Módulo Stocks
 
-O módulo "Stocks" utiliza os módulos "network", "analytics" e "ui-components" para implementar telas específicas dessa funcionalidade. 
+O módulo "Stocks" utiliza os módulos `network`, `analytics` e `ui-components` para implementar telas específicas dessa funcionalidade. 
 Todas as regras de negócio e funcionalidades exclusivas do módulo estão centralizadas aqui.
 
 ## Módulo Network
@@ -214,7 +281,7 @@ const val SCREEN_HOME_TAB = "SCREEN_HOME_TAB"
 ItauAnalytics.logEvent(ItauAnalytics.SCREEN_NAME, SCREEN_HOME_TAB)
 ```
 
-### Painel do Google Analytics: Visualize seus Dados
+### Painel do Google Analytics
 No painel do Google Analytics, as informações enviadas, juntamente com um conjunto de dados importantes, são apresentadas de maneira organizada e acessível. Aqui, você pode explorar uma ampla gama de métricas e insights, permitindo uma compreensão mais profunda do desempenho e do comportamento do seu público-alvo.
 
 <img src="screenshots/PAINEL_ANALYTICS.png" alt="Imagens do Aplicativo" width="100%">
@@ -223,4 +290,91 @@ No painel do Google Analytics, as informações enviadas, juntamente com um conj
 
 ## Testes e Princípios de Design
 
-Para garantir a qualidade do código, foram implementados testes automatizados em todos os módulos do aplicativo.
+Testes automatizados garantem a qualidade do código, detectam bugs rapidamente, facilitam a refatoração e servem como documentação viva do comportamento do sistema, aumentando a confiança no software.
+
+### Exemplo de Teste Instrumentado (UI)
+
+```kotlin
+class ExpandableCardTest {
+
+    @get:Rule
+    val composeTestRule = createComposeRule()
+
+    @Test
+    fun expandableCard_InitialState_Collapsed() {
+
+        composeTestRule.setContent {
+            ExpandableCard(
+                initialState = false,
+                titleContent = { Text(text = "Title") },
+                content = { Text(text = "Content") }
+            )
+        }
+        composeTestRule.onNodeWithText("Content").assertDoesNotExist()
+    }
+
+    @Test
+    fun expandableCard_InitialState_Expanded() {
+        composeTestRule.setContent {
+            ExpandableCard(
+                initialState = true,
+                titleContent = { Text(text = "Title") },
+                content = { Text(text = "Content") }
+            )
+        }
+
+        composeTestRule.onNodeWithText("Content").assertIsDisplayed()
+    }
+
+    @Test
+    fun expandableCard_ClickToExpandAndCollapse() {
+
+        composeTestRule.setContent {
+            ExpandableCard(
+                initialState = false,
+                titleContent = { Text(text = "Title") },
+                content = { Text(text = "Content") }
+            )
+        }
+
+        composeTestRule.onNodeWithContentDescription("Collapse").performClick()
+
+        composeTestRule.onNodeWithText("Content").assertIsDisplayed()
+
+        composeTestRule.onNodeWithContentDescription("Collapse").performClick()
+
+        composeTestRule.onNodeWithText("Content").assertDoesNotExist()
+    }
+}
+```
+
+
+### Exemplo de testes unitários
+
+```kotlin
+    @Test
+    fun `listAssets should return success`() =  runTest {
+
+        val investments = listOf(
+            InvestmentData("Petrobras SA", "PETR4", 154f, 14.52, "Ação"),
+            InvestmentData("Tesouro Direto NTNB-B", "Tesouro_1", 50f, 11.16, "Tesouro")
+        )
+
+        coEvery { investmentsRepository.listAssets() } returns NetworkResult.Success(investments)
+
+
+        viewModel.listAssets()
+
+        verify {
+            stateObserver.onChanged(
+                match {
+                    it is HomeState.OnInvestmentsLoaded && it.investments == investments
+                }
+            )
+        }
+    }
+```
+
+### Considerações Finais
+
+O projeto usa o modelo MVVM+CLEAN para organizar o código, o Jetpack Compose para criar a interface do usuário de forma moderna. Seguindo os princípios SOLID, evita repetições desnecessárias, tornando o código mais limpo e fácil de entender. Isso resulta em um aplicativo Android bem estruturado, ágil e de fácil manutenção.
